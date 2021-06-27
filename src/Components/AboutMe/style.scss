@@ -1,0 +1,58 @@
+
+
+.AboutMe{
+    background: #E4D3CF;
+    background: -webkit-linear-gradient(to top, #E4D3CF, #ffffff);
+    background: linear-gradient(to top, #E4D3CF, #ffffff);
+  
+    height: 620px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    .about {
+        font-size: 75px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: #000000;
+    }
+    .me{
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-left: auto;
+        align-content: center;
+        
+        
+    }
+    .description{ 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;     
+        color:#734046;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        width: 800px;
+        text-align: justify;
+
+        
+
+        
+    
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+    
+}

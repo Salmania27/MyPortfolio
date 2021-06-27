@@ -1,0 +1,54 @@
+.contactContainer {
+height: 420px;
+
+
+.contact {	
+    font-size: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #ED9D8C;
+  }
+
+.contactWrapper {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px; 
+	text-align: left;
+}
+	
+.mail{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:#A4B787;
+font-weight: bold;
+margin-top: 30px;
+margin-left: 30px;
+}
+
+.linksContainer {
+padding-right:30px;
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+margin-left: 30px;
+li{
+text-decoration: none;
+list-style:disc;
+
+.linkContact{
+		color:#151515;
+		font-weight: bold;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding-right: 20px;
+		list-style: none;
+		text-decoration: none;
+		cursor: pointer;
+
+
+		}
+		}
+		
+	}
+
+}

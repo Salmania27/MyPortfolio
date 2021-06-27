@@ -1,0 +1,35 @@
+.individualCard{
+    width: calc(25% - 2em);
+    margin:10px;
+    -webkit-box-shadow: 9px 6px 21px 0px rgba(219,219,219,1);
+    -moz-box-shadow: 9px 6px 21px 0px rgba(219,219,219,1);
+    box-shadow: 9px 6px 21px 0px rgba(219,219,219,1);
+    transition: .15s ease;
+    position: relative;
+    text-align: center;
+    height: 350px;
+
+    a{
+      text-decoration: none;
+      img{
+        width:100%;
+        height: 50%;
+        
+
+
+    }
+    .title{
+        font-weight: bold;
+        font-size: 18px;
+        color:#397249;
+    }
+    .description{
+        font-weight: lighter;
+        font-size: 16px;
+        color:#628B61;
+        padding: 10px;
+    }
+    }
+
+    
+}
